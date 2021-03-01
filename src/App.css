@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: #ffcc00;
+  background-color: #292c34 !important;
+  color: #fff !important;
 }
 
 .App {
@@ -28,24 +29,6 @@ h1 {
   margin-bottom: 1rem;
 }
 
-input[type="text"] {
-  width: 60vh;
-  max-width: 400px;
-  height: auto;
-  min-height: 40px;
-  font: 16px/24px Arial;
-}
-input[type="submit"] {
-  height: auto;
-  min-height: 40px;
-  background-color: #e1e1e1;
-  border: none;
-  font: 16px/24px Arial;
-  width: 30vh;
-  max-width: 200px;
-  cursor: pointer;
-}
-
 .render {
   position: absolute;
   top: 15px;
@@ -57,22 +40,25 @@ input[type="submit"] {
   text-align: center;
 }
 
-button,
-p {
-  margin: 10px 0;
-}
-
 .main-title {
   margin-bottom: 2rem;
 }
 
 input[type="text"] {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+.inputTextLabel,
+.form-container {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  display: block;
   margin-bottom: 20px;
 }
 
 button {
-  height: 2rem;
-  padding: 0px 10px;
   margin: 0px 5px;
   font-weight: bold;
   cursor: pointer;
