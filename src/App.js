@@ -1,6 +1,7 @@
-import './App.css';
-import Todo from './Todo';
 
+import Fundamentals from './Fundamentals';
+import Task from './Task';
+import './App.css';
 
 function App ()
 {
@@ -8,7 +9,8 @@ function App ()
     <div className="App">
       <div className="container">
         <h1 className="center main-title">React Fundamentals</h1>
-        <Todo />
+        <Fundamentals />
+        <Task title="Task Tracker" />
       </div>
     </div>
   );

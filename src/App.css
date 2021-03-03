@@ -17,16 +17,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 20vh;
+  margin-top: 8vh;
   padding: 2rem;
 }
 
-.todo-container {
-  text-align: center;
-}
-
 h1 {
-  margin-bottom: 1rem;
+  margin-bottom: 4ccsrem;
 }
 
 .render {
@@ -49,6 +45,7 @@ input[type="text"] {
   margin-bottom: 20px;
   max-width: 500px;
 }
+
 .inputTextLabel,
 .form-container {
   margin: 0 auto;
@@ -56,10 +53,26 @@ input[type="text"] {
   width: 100%;
   display: block;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 button {
   margin: 0px 5px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.text-muted {
+  color: #fff !important;
+}
+
+b {
+  font-size: 1.5rem;
+  padding: 0 8px;
+}
+
+header {
+  border: 1px solid #fff;
+  margin: 10vh 0;
+  padding: 20px;
 }
