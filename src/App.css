@@ -35,6 +35,10 @@ h1 {
 .center {
   text-align: center;
 }
+.left-align {
+  text-align: left;
+  margin: 20px auto;
+}
 
 .main-title {
   margin-bottom: 2rem;
@@ -74,5 +78,35 @@ b {
 header {
   border: 1px solid #fff;
   margin: 10vh 0;
-  padding: 20px;
+  padding: 20px 30px;
+}
+
+.task {
+  border-bottom: 1px solid #fff;
+  justify-content: space-between;
+  padding: 15px 5px;
+}
+
+.close {
+  transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -ms-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  color: #ebba08 !important;
+  opacity: 1 !important;
+}
+
+.close:hover {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  color: red !important;
+}
+
+.task input {
+  margin: 0 10px 0 5px;
+  cursor: pointer;
 }
